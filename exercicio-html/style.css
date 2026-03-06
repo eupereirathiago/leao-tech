@@ -1,0 +1,112 @@
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            color: white;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: #001a4e;
+            position: absolute;
+        }
+        #conteiner{
+            height: 50px;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            background-color: black;
+            position: fixed;
+        }
+        
+        a{
+            color: aliceblue;
+        }
+        a:hover{
+            color: #0440B9;
+        }
+        #nav{
+            width: 90%;
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            gap: 90px;
+            justify-content: center;
+        }
+
+
+       
+        section{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        section img{
+            object-position: center 20%;
+        }
+
+        section .logos{
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 50px;
+            padding: 60px 0 60px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        section .logos img{
+            width: 100px;
+        }
+        section .conteudo{
+            width: 95%;
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            
+            font-size: 26px;
+            gap: 16px;
+            margin-top: 20px;
+            padding: 16px;
+        }
+
+        section h1{
+            margin: 20px 20px;
+            text-transform: uppercase;
+            padding: 60px 0 60px;
+
+        }
+
+        section .conteudo p{
+            font-size: 20px;
+            display: flex;
+            flex-grow: initial;
+            align-items: stretch;
+            flex: 1;
+            line-height: 1.5;
+            hyphens: auto;
+            border-right: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 16px;
+            
+        }
+        section .conteudo p:last-child{
+            border-right: none;
+        }
+        footer{
+            width: 100%;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 200px;
+        }
+        footer a:hover{
+            background-color: rgba(240, 248, 255, 0.153);
+            border-radius: 100%;
+        }
