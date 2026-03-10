@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vagas</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            border: none;
+            outline-color: black;
+            
+        }
+        form{
+            background-color: rgba(75, 80, 80, 0.651);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+        form #info{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+
+            label{
+                text-align: left;
+            }
+
+            label, input{
+                margin-bottom: 5px;
+                width: 95%;
+                height: 19px;
+                border-radius: 7px;
+            }
+            
+        }
+       
+        form #selec{
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            justify-content: center;
+            text-align: center;
+            
+            label, input{
+                margin-bottom: 5px;
+            }
+        }
+
+        form h3{
+            margin: 10px 0 10px;
+        }
+        form #gen{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 12px;
+
+                input, label{
+                    margin-bottom: 10px;
+                }
+
+        }
+
+        form #coment{
+            display: flex;
+            flex-direction: column;
+
+
+            label{
+                font-size: 17px;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            textarea{
+                padding: 5px;
+                border-radius: 6px;
+                
+            }
+        }
+        #enviar{
+            margin: 10px 33%;
+            padding: 10px 40px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+
+    <form>
+        <div id="info">
+            <label for="name">Nome: </label>
+            <input id="name" name="name" type="text">
+
+            <label name="email" for="email">E-mail</label>
+            <input id="email" name="email" type="email">
+        </div>
+
+        <div id="selec">
+            <label for="vagas">Vagas</label>
+            <select name="vagas" id="vagas">
+                <option value="">Selecione</option>
+                <option value="desenvolvedor">Desenvolvedor</option>
+                <option value="qa">Qualidade</option>
+                <option value="analista">Analista</option>
+            </select>
+        </div>
+        
+        <h3>Gênero</h3>
+        <div id="gen">
+
+            
+            <input type="radio" name="genero" id="genero" value="masculino">
+            <label for="genero" id="masculino">Masculino</label>
+
+            <input type="radio" name="genero" id="feminino" value="feminino">
+            <label for="genero" id="feminino">Feminino</label>
+
+            <input type="radio" name="genero" id="outro" value="outro">
+            <label for="genero" id="outro">Outro</label>
+
+        </div>
+
+        <div id="coment">
+            <label for="comentario">Descreva um pouco sobre você: </label>
+            <textarea placeholder="Fale sobre você!" name="comentario" id="comentario" cols="20" rows="5"></textarea>
+        </div>
+
+        <input type="submit" name="submit" value="Enviar" id="enviar">
+
+
+
+
+    </form>
+</body>
+</html>
