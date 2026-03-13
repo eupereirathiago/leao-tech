@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+
+.conteiner{
+    text-align: center;
+    width: 80%;
+    border: solid 1px red;
+    margin: 0 auto;
+}
+.box-cont{
+    width: 100%;
+    
+    padding: 20px;
+    margin: 0 auto;
+    
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+    display: inline-block;
+    margin: 10px 10px;
+
+    text-align: center;
+}
+.conteiner2{
+    border: green solid 1px;
+
+    text-align: center;
+    width: 80%;
+    
+    margin: 0 auto;
+}
+
+.conteiner2 .d{
+    border: solid 1px red;
+
+    width: 50px;
+
+}
