@@ -18,11 +18,11 @@ body{
 }
 .box-cont{
     width: 100%;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
     margin: 0 auto;
-    
-    
 }
 .box{
     width: 200px;
@@ -44,7 +44,15 @@ body{
 
 .conteiner2 .d{
     border: solid 1px red;
-
     width: 50px;
+}
 
+.conteiner2 .d2{
+    border: solid 1px blue;
+    width: 100px;
+}
+
+.conteiner2 .d3{
+    border: solid 1px green;
+    width: 150px;
 }
