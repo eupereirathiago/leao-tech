@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#botao-link{
+    font-size: 13px;
+}
+
+#hero{
+    background-color:#F2F2F2;
+    margin-top: 62px;
+}
+
+#hero h1, #hero p{
+    max-width: 400px;
+    
+}
+
+#img-hero{
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#sobre img{
+    width: 100%;
+}
+#sobre h3{
+    color: #9BA2A9;
+}
+#sobre-fone{
+    h3{
+        font-size: 20px;
+        color: black;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+}
+
+#sobre-info-check{
+    img{
+        width: 100%;
+    }
+}
+
+#menu{
+    background-color: #F2F2F2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+#menu-cards{
+    gap: 20px;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#menu-cards .menu-card{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-cards .menu-card i{
+    padding: 7px 10px;
+    border-radius: 20px;
+    background-color: #ffd2d2;
+}
+
+#menu-cards .menu-card h2{
+    font-size: 18px;
+}
+
+#menu-cards .menu-card p{
+    font-size: 13px;
+    color: #90A8C2;
+}
+
+#card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #CE1212;
+    height: 250px;
+}
+
+#card-1 h2{
+    font-size: 27px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+#card-1 h2, #card-1 p{
+    color: white;
+}
+
+#card-1 a{
+    background-color: #D53535;
+    font-size: 13px;
+}
